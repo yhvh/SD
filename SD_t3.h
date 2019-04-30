@@ -34,7 +34,7 @@
 // On Teensy 3.5 & 3.6, this optimization does NOT SUPPORT the built-in SD
 // sockets.  It only works with SD cards connected to the SPI pins.
 //
-//#define USE_TEENSY3_OPTIMIZED_CODE
+#define USE_TEENSY3_OPTIMIZED_CODE
 
 /* Why reinvent the SD library wheel...
  *   1: Allow reading files from within interrupts
